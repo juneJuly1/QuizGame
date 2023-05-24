@@ -43,4 +43,5 @@ if user_answer.lower() in q_answer:
 else:
     print('Incorrect.')
 
-print('You got', score, '/3 questions correct.')
+print('You got ' + str(score) + '/3 questions correct.')
+print('You got ' + str(score/3) * 100 + '%')
