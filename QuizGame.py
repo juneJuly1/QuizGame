@@ -29,24 +29,8 @@ else:
     print('Incorrect.')
 
 # Question 3
-user_answer = input('3. ? ')
-q_answer = ('', '')
-if user_answer in q_answer:
-    print('Correct!')
-else:
-    print('Incorrect.')
-
-# Question 4
-user_answer = input('4. ? ')
-q_answer = ('', '')
-if user_answer in q_answer:
-    print('Correct!')
-else:
-    print('Incorrect.')
-
-# Question 5
-user_answer = input('5. ? ')
-q_answer = ('', '')
+user_answer = input('3. What does PSU stand for? ')
+q_answer = ('power supply unit', 'Power Supply Unit')
 if user_answer in q_answer:
     print('Correct!')
 else:
