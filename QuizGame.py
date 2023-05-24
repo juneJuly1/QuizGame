@@ -1,8 +1,10 @@
-yes_strings = ['y', 'Y', 'yes', 'Yes']
-
+# Welcoming user and getting user input.
 print('Welcome to the quiz!')
 
 playing = input('Do you want to play? ')
+
+# Checking if user wants to play.
+yes_strings = ['y', 'Y', 'yes', 'Yes']
 
 if playing not in yes_strings:
     print('No Play')
